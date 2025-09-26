@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: "myfont";
+    src: url("../public/fonts/myfont.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+body {
+    font-family: 'MyFont', sans-serif;
+}
+
+::selection{
+  background-color: white;
+  color: black;
+}
+
+@keyframes spin-slow {
+
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+
+}
+
+.spin-slow {
+
+  animation: spin-slow 4s linear infinite;
+
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.scroll-left-infinite {
+  animation: scroll-left 20s linear infinite;
+  display: flex;
+  width: max-content;
+}
+
+@keyframes project1-scroll-right-infinite {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.project1-scroll-left-infinite {
+  animation: project1-scroll-right-infinite 60s linear infinite;
+  display: flex;
+  width: max-content;
+}
+
+
+@keyframes project2-scroll-right-infinite {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.project2-scroll-right-infinite {
+  animation: project2-scroll-right-infinite 60s linear infinite;
+  display: flex;
+  width: max-content;
+}
