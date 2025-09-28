@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import MyImage from '@/public/image.png'
+import MyImage from '@/public/varad.png'
 import Gradient_button from './Gradient_button'
 import { FaArrowRightLong } from "react-icons/fa6"; //arrow
 import { GiStarShuriken } from "react-icons/gi";

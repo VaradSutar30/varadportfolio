@@ -9,17 +9,17 @@ const Social_links_navbar = () => {
             {/* social links - github, linkeding, insta */}
             <div className='flex items-center gap-2'>
                 {/* linkedin  */}
-                <Link href={'/'} className='h-8 w-8 text-white bg-[#55555521] rounded-full flex justify-center items-center'>
+                <Link href={'www.linkedin.com/in/varad-sutar-8a936b287'} className='h-8 w-8 text-white bg-[#55555521] rounded-full flex justify-center items-center'>
                     <FaLinkedinIn />
                 </Link>
 
                 {/* github  */}
-                <Link href={''} className='h-8 w-8 text-white bg-[#55555521] rounded-full flex justify-center items-center'>
+                <Link href={'https://github.com/VaradSutar30/'} className='h-8 w-8 text-white bg-[#55555521] rounded-full flex justify-center items-center'>
                     <FaGithub />
                 </Link>
 
                 {/* instagram  */}
-                <Link href={''} className='h-8 w-8 text-white bg-[#55555521] rounded-full flex justify-center items-center'>
+                <Link href={'https://www.instagram.com/varad2_/'} className='h-8 w-8 text-white bg-[#55555521] rounded-full flex justify-center items-center'>
                     <FaInstagram />
                 </Link>
             </div>

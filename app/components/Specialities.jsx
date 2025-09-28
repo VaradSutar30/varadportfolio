@@ -12,7 +12,7 @@ const Specialities = () => {
             <div className='flex gap-4 flex-col justify-center items-center'>
                 <p className='uppercase text-zinc-600 font-semibold'>Specialities</p>
                 <h2 className='text-2xl capitalize'>My <span className='text-[#194BFD] font-extrabold'>Specialities</span></h2>
-                <p className='text-sm text-zinc-600 text-center md:w-6/12'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum ab corporis adipisci ducimus beatae vel, veniam voluptate ea neque velit, quia laborum reiciendis illum sunt aliquam, ratione labore! Cumque, magnam?</p>
+                <p className='text-sm text-zinc-600 text-center md:w-6/12'> "I am a Full-Stack Web Developer who architects and delivers end-to-end digital solutions. My specialties span Front-End (React/Vue) for building intuitive, performance-driven user interfaces, Back-End (Node.js/Python) for designing secure, scalable APIs and services, and comprehensive DevOps (Cloud/CI/CD) for reliable deployment. My focus is on technical excellence from the server to the user's screen."</p>
             </div>
 
             {/* Specialities cards */}
@@ -32,7 +32,7 @@ const Specialities = () => {
                         <BsDashLg />
                         <BsDashLg />
                     </div>
-                    <p className='text-sm text-zinc-600 text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam voluptatum possimus quis, modi odio pariatur tempore sunt! Doloribus, quia dicta.</p>
+                    <p className='text-sm text-zinc-600 text-center'>"I'm Varad Sutar, a dedicated Front-End Developer who transforms designs into exceptional, high-performance user interfaces. Specializing in React, TypeScript, and modern CSS, I focus on the critical balance between pixel-perfect design and clean, scalable code. Let's build a flawless digital experience."</p>
 
                 </div>
 
@@ -50,7 +50,7 @@ const Specialities = () => {
                         <BsDashLg />
                         <BsDashLg />
                     </div>
-                    <p className='text-sm text-zinc-600 text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam voluptatum possimus quis, modi odio pariatur tempore sunt! Doloribus, quia dicta.</p>
+                    <p className='text-sm text-zinc-600 text-center'>"I'm Varad Sutar, a dedicated Back-End Developer who engineers robust and scalable solutions. I specialize in designing and deploying secure, high-performance APIs using Your primary language, e.g., Python/Java and Your database, e.g., PostgreSQL/MongoDB. My focus is always on creating efficient architecture that handles heavy traffic and delivers long-term reliability."</p>
 
                 </div>
 
@@ -68,8 +68,7 @@ const Specialities = () => {
                         <BsDashLg />
                         <BsDashLg />
                     </div>
-                    <p className='text-sm text-zinc-600 text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam voluptatum possimus quis, modi odio pariatur tempore sunt! Doloribus, quia dicta.</p>
-
+                    <p className='text-sm text-zinc-600 text-center'>"I'm Varad Sutar, a Game Programmer specializing in C# and Unity (or C++ and Unreal Engine). I architect the core gameplay systems, focusing on optimization, clean code, and robust game logic. I excel at turning ambitious design concepts into smooth, high-performance interactive realities. My passion is building the engine that brings worlds to life."</p>
                 </div>
             </div>
 

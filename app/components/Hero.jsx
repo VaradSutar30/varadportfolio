@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import MyImage from '@/public/image.png'
+import MyImage from '@/public/varad.png'
 import Gradient_button from './Gradient_button'
 import { FaArrowRightLong } from "react-icons/fa6"; //arrow
 import { GiStarShuriken } from "react-icons/gi";
@@ -24,7 +24,7 @@ const Hero = () => {
                     </h2>
 
                     {/* about paragraph */}
-                    <p className='w-7/12 mt-4 mb-6 text-zinc-600 text-sm'>Varad</p>
+                    <p className='w-7/12 mt-4 mb-6 text-zinc-600 text-sm'>"I am a Computer Engineer and dedicated Front-End Developer who builds fast, scalable, and highly maintainable web applications. My background in computer engineering provides me with a deep understanding of data structures, algorithms, and system performance, which I directly apply to the user experience layer.</p>
 
                     <div className='flex gap-6 items-center'>
                         {/* discuss project button */}

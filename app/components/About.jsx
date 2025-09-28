@@ -11,7 +11,7 @@ const About = () => {
             <div className='flex gap-4 flex-col justify-center items-center'>
                 <p className='uppercase text-zinc-600 font-semibold'>ABOUT ME</p>
                 <h2 className='text-2xl capitalize'>My <span className='text-[#194BFD] font-extrabold'>Work process</span></h2>
-                <p className='text-sm text-zinc-600 text-center px-1 md:w-6/12'>Varad</p>
+                <p className='text-sm text-zinc-600 text-center px-1 md:w-6/12'>I follow a clear, five-stage work process designed to turn complex problems into effective solutions. The journey begins with Discovery, where I meet with stakeholders to precisely define the core problem, identify the target audience, and set measurable project goals. Next, in the Planning stage, I translate ideas into structure by conducting research and creating foundational assets like wireframes or data models to ensure the concept is sound before building. The Creation phase is an iterative cycle of development, where I focus on building the core assets while continuously testing and refining. This leads to Refinement, where I integrate client feedback and conduct rigorous Quality Assurance (QA) to ensure the final product is flawless. The process concludes with Deployment, where I successfully launch the solution and provide all necessary documentation for a seamless handover. This structured approach ensures every project is executed with efficiency, transparency, and a focus on delivering quantifiable results.</p>
             </div>
 
             <div className="relative overflow-hidden w-full h-fit py-10">
