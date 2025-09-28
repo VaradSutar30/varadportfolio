@@ -11,7 +11,9 @@ const Services = () => {
             <div className='flex gap-4 flex-col justify-center items-center'>
                 <p className='uppercase text-zinc-600 font-semibold'>Services</p>
                 <h2 className='text-2xl capitalize'>My <span className='text-[#194BFD] font-extrabold'>Other Services</span></h2>
-                <p className='text-sm text-zinc-600 text-center md:w-6/12'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum ab corporis adipisci ducimus beatae vel, veniam voluptate ea neque velit, quia laborum reiciendis illum sunt aliquam, ratione labore! Cumque, magnam?</p>
+                <p className='text-sm text-zinc-600 text-center md:w-6/12'>The note saved earlier containing the services in paragraph form is:
+
+"The services included in the portfolio are generally defined by the financial institution offering them and may vary widely. Common services often include investment management, where professionals manage a client's assets according to their financial goals and risk tolerance. Financial planning is another core component, providing personalized strategies for retirement, education savings, and large purchases. Estate planning and tax minimization strategies are also frequently offered to ensure wealth is managed and transferred efficiently. Risk management services, such as insurance planning, round out the offerings to protect the client's assets."</p>
             </div>
 
             {/* services card section */}
