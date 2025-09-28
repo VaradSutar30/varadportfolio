@@ -9,8 +9,8 @@ const Footer = () => {
 
                 {/* logo */}
                 <div>
-                    <h2 className='uppercase text-xl font-extrabold bg-gradient-to-r from-white to-zinc-900 text-transparent bg-clip-text'>Sangam</h2>
-                    <p className='text-sm text-zinc-500 w-72 mt-2'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam sunt facere quae! Sit natus consequuntur officia.</p>
+                    <h2 className='uppercase text-xl font-extrabold bg-gradient-to-r from-white to-zinc-900 text-transparent bg-clip-text'>Varad</h2>
+                    <p className='text-sm text-zinc-500 w-72 mt-2'>Varad</p>
 
                     {/* social links - github, linkeding, insta */}
                     <div className='flex items-center gap-2 mt-3'>
@@ -68,13 +68,13 @@ const Footer = () => {
                         {/* phone */}
                         <button className='text-zinc-300 flex gap-2 items-center'>
                             <FaMobile />
-                            <span className='text-sm'> +91 93223 12609</span>
+                            <span className='text-sm'> +91 8010354108</span>
                         </button>
 
                         {/* email */}
                         <button className='text-zinc-300 flex gap-2 items-center'>
                             <CiMail />
-                            <span className='text-sm'>sangam@gmail.com</span>
+                            <span className='text-sm'>varadsutar30@gmail.com</span>
                         </button>
 
                         {/* location */}

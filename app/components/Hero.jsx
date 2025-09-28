@@ -18,13 +18,13 @@ const Hero = () => {
                 <div className='ml-16 relative z-10'>
 
                     {/* title text */}
-                    <h2 className='-mt-20 text-5xl text-white'>This is your <br />
-                        developer <br />
-                        <span className='text-blue-600 font-semibold'>Sangam Shedage</span>
+                    <h2 className='-mt-20 text-5xl text-white'>I Am a Web Developer<br />
+ <br />
+                        <span className='text-blue-600 font-semibold'>Varad Sutar</span>
                     </h2>
 
                     {/* about paragraph */}
-                    <p className='w-7/12 mt-4 mb-6 text-zinc-600 text-sm'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                    <p className='w-7/12 mt-4 mb-6 text-zinc-600 text-sm'>Varad</p>
 
                     <div className='flex gap-6 items-center'>
                         {/* discuss project button */}

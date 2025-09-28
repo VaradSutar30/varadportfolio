@@ -32,43 +32,48 @@ const Mobile_sidebar = () => {
 
                 {/* home */}
                 <Link href={"#home"} className='text-lg capitalize text-white'>
-                    home
+                    Home
                 </Link>
 
                 {/* service */}
                 <Link href={"#service"} className='text-lg capitalize text-zinc-400 hover:text-white transition-all duration-200 cursor-pointer'>
-                    service
+                    Service
                 </Link>
 
                 {/* projects */}
                 <Link href={"#project"} className='text-lg capitalize text-zinc-400 hover:text-white transition-all duration-200 cursor-pointer'>
-                    projects
+                    Projects
                 </Link>
 
                 {/* about */}
                 <Link href={"#about"} className='text-lg capitalize text-zinc-400 hover:text-white transition-all duration-200 cursor-pointer'>
-                    about
+                    About
                 </Link>
 
                 {/* contact */}
                 <Link href={"#contact"} className='text-lg capitalize text-zinc-400 hover:text-white transition-all duration-200 cursor-pointer'>
-                    contact
+                    Contact
                 </Link>
 
                 {/* phone */}
                 <button className='text-zinc-400 flex gap-1 items-center'>
                     <FaMobile />
-                    <span className='text-lg'> +91 93223 12609</span>
+                    <span className='text-lg'>8010354108</span>
                 </button>
 
                 {/* email */}
                 <button className='text-zinc-400 flex gap-1 items-center'>
                     <CiMail />
-                    <span className='text-lg'>sangam@gmail.com</span>
+                    <span className='text-lg'>varadsutar30@gmail.com</span>
                 </button>
 
-                {/* download resume button */}
-                <Gradient_button title={'download resume'} />
+
+
+
+                        {/* download resume button */}
+                     <Link href="/ResumeV.pdf" target="_blank" download>
+                    Download Resume
+                    </Link>
 
             </div>
 

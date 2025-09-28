@@ -9,7 +9,7 @@ const Projects = () => {
             <div className='flex gap-4 flex-col justify-center items-center'>
                 <p className='uppercase text-zinc-600 font-semibold'>PORTFOLIOS</p>
                 <h2 className='text-2xl capitalize'>My <span className='text-[#194BFD] font-extrabold'>Completed Projects</span></h2>
-                <p className='text-sm text-zinc-600 text-center px-1 md:w-6/12'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum ab corporis adipisci ducimus beatae vel, veniam voluptate ea neque velit, quia laborum reiciendis illum sunt aliquam, ratione labore! Cumque, magnam?</p>
+                <p className='text-sm text-zinc-600 text-center px-1 md:w-6/12'>Varad</p>
             </div>
 
             {/* project images section */}

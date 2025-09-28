@@ -18,41 +18,44 @@ const Navbar = () => {
             <div className='flex justify-between items-center'>
 
                 {/* logo */}
-                <h2 className='uppercase text-xl font-semibold text-white'>Sangam</h2>
+                <h2 className='uppercase text-xl font-semibold text-white'>Varad</h2>
 
                 {/* nav links */}
                 <div className='hidden md:flex gap-8 items-center'>
 
                     {/* home */}
                     <Link href={"#home"} className='text-lg capitalize text-white'>
-                        home
+                        Home
                     </Link>
 
                     {/* service */}
                     <Link href={"#service"} className='text-lg capitalize text-zinc-400 hover:text-white transition-all duration-200 cursor-pointer'>
-                        service
+                        Service
                     </Link>
 
                     {/* projects */}
-                    <Link href={"#project"} className='text-lg capitalize text-zinc-400 hover:text-white transition-all duration-200 cursor-pointer'>
-                        projects
+                    <Link href={"https://github.com/VaradSutar30"} className='text-lg capitalize text-zinc-400 hover:text-white transition-all duration-200 cursor-pointer'>
+                        Projects
                     </Link>
 
                     {/* about */}
-                    <Link href={"#about"} className='text-lg capitalize text-zinc-400 hover:text-white transition-all duration-200 cursor-pointer'>
-                        about
+                    <Link href={"https://www.linkedin.com/in/varad-sutar-8a936b287/"} className='text-lg capitalize text-zinc-400 hover:text-white transition-all duration-200 cursor-pointer'>
+                        About
                     </Link>
 
                     {/* contact */}
-                    <Link href={"#contact"} className='text-lg capitalize text-zinc-400 hover:text-white transition-all duration-200 cursor-pointer'>
-                        contact
+                    <Link href={"https://www.linkedin.com/in/varad-sutar-8a936b287/"} className='text-lg capitalize text-zinc-400 hover:text-white transition-all duration-200 cursor-pointer'>
+                        Contact
                     </Link>
 
                 </div>
 
                 {/* download resume button */}
-                <div className='hidden md:block'>
-                    <Gradient_button title={'download resume'} />
+                <div className=''>
+                 
+                <button href="ResumeV.pdf" target="_blank" download className='capitalize text-white px-3 py-2 font-semibold rounded-3xl bg-gradient-to-r from-[#194BFD] to-[#AD13FB] cursor-pointer'>
+                        Download Resume
+                        </button>
                 </div>
 
                 {/* toogle menu button */}

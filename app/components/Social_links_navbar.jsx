@@ -9,19 +9,19 @@ const Social_links_navbar = () => {
             {/* social links - github, linkeding, insta */}
             <div className='flex items-center gap-2'>
                 {/* linkedin  */}
-                <button className='h-8 w-8 text-white bg-[#55555521] rounded-full flex justify-center items-center'>
+                <Link className='h-8 w-8 text-white bg-[#55555521] rounded-full flex justify-center items-center'>
                     <FaLinkedinIn />
-                </button>
+                </Link>
 
                 {/* github  */}
-                <button className='h-8 w-8 text-white bg-[#55555521] rounded-full flex justify-center items-center'>
+                <Link className='h-8 w-8 text-white bg-[#55555521] rounded-full flex justify-center items-center'>
                     <FaGithub />
-                </button>
+                </Link>
 
                 {/* instagram  */}
-                <button className='h-8 w-8 text-white bg-[#55555521] rounded-full flex justify-center items-center'>
+                <Link className='h-8 w-8 text-white bg-[#55555521] rounded-full flex justify-center items-center'>
                     <FaInstagram />
-                </button>
+                </Link>
             </div>
 
             {/* conatct info - phone, email, adress */}
@@ -30,13 +30,13 @@ const Social_links_navbar = () => {
                 {/* phone */}
                 <button className='hidden text-zinc-300 md:flex gap-1 items-center'>
                     <FaMobile />
-                    <span className='text-sm'> +91 93223 12609</span>
+                    <span className='text-sm'> +91 8010354108</span>
                 </button>
 
                 {/* email */}
                 <button className='text-zinc-300 hidden md:flex gap-1 items-center'>
                     <CiMail />
-                    <span className='text-sm'>sangam@gmail.com</span>
+                    <span className='text-sm'>varadsutar30@gmail.com</span>
                 </button>
 
                 {/* location */}

@@ -15,9 +15,9 @@ const Mobile_hero = () => {
             <div>
 
                 {/* title text */}
-                <div className='text-4xl text-white text-center'>This is your <br />
-                    developer <br />
-                    <span className='text-blue-600 font-semibold'>Sangam Shedage</span>
+                <div className='text-4xl text-white text-center'>I am Web <br />
+                    Developer <br />
+                    <span className='text-blue-600 font-semibold'>Varad Sutar</span>
                 </div>
 
                 <div className='flex mt-5 gap-4 justify-center items-center'>
@@ -25,7 +25,7 @@ const Mobile_hero = () => {
                     <Gradient_button title={'discuss for project'} />
 
                     <button className='capitalize text-white flex gap-2 items-center cursor-pointer'>
-                        View portfolio
+                        View Portfolio
                         <FaArrowRightLong />
                     </button>
                 </div>
