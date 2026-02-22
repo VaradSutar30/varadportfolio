@@ -1,67 +1,69 @@
 'use client'
 import React from 'react'
-import Link from 'next/link';
-import { useDispatch } from 'react-redux';
+import Link from 'next/link'
+import { useDispatch } from 'react-redux'
 import { toggleMobileSidebar } from '../redux-store/sidebarSlice'
-import Social_links_navbar from './Social_links_navbar';
-import { IoIosMenu } from "react-icons/io";
-import Gradient_button from './Gradient_button';
+import Social_links_navbar from './Social_links_navbar'
+import { IoIosMenu } from "react-icons/io"
 
 const Navbar = () => {
 
     const dispatch = useDispatch();
 
     return (
-        <nav className='z-40 w-full h-fit px-3 py-4 md:px-12 md:py-6 bg-zinc-950 flex flex-col gap-4 fixed left-0 top-0 right-0 border-b border-zinc-800'>
+        <nav className='z-50 w-full px-4 md:px-12 py-4 bg-zinc-950 fixed top-0 left-0 border-b border-zinc-800 backdrop-blur-md'>
+
+            {/* top social strip */}
             <Social_links_navbar />
 
-            <div className='flex justify-between items-center'>
+            <div className='flex justify-between items-center mt-3'>
 
                 {/* logo */}
-                <h2 className='uppercase text-xl font-semibold text-white'>Varad</h2>
+                <h2 className='uppercase text-xl font-semibold text-white tracking-wide'>
+                    Varad
+                </h2>
 
                 {/* nav links */}
-                <div className='hidden md:flex gap-8 items-center'>
+                <div className='hidden md:flex gap-10 items-center font-medium'>
 
-                    {/* home */}
-                    <Link href={"#home"} className='text-lg capitalize text-white'>
+                    <Link href="#home" className='text-white hover:text-blue-500 transition'>
                         Home
                     </Link>
 
-                    {/* service */}
-                    <Link href={"#service"} className='text-lg capitalize text-zinc-400 hover:text-white transition-all duration-200 cursor-pointer'>
-                        Service
+                    <Link href="#service" className='text-zinc-400 hover:text-white transition'>
+                        Services
                     </Link>
 
-                    {/* projects */}
-                    <Link href={"https://github.com/VaradSutar30"} className='text-lg capitalize text-zinc-400 hover:text-white transition-all duration-200 cursor-pointer'>
+                    <Link href="#project" className='text-zinc-400 hover:text-white transition'>
                         Projects
                     </Link>
 
-                    {/* about */}
-                    <Link href={"https://www.linkedin.com/in/varad-sutar-8a936b287/"} className='text-lg capitalize text-zinc-400 hover:text-white transition-all duration-200 cursor-pointer'>
+                    <Link href="#about" className='text-zinc-400 hover:text-white transition'>
                         About
                     </Link>
 
-                    {/* contact */}
-                    <Link href={"https://www.linkedin.com/in/varad-sutar-8a936b287/"} className='text-lg capitalize text-zinc-400 hover:text-white transition-all duration-200 cursor-pointer'>
+                    <Link href="#contact" className='text-zinc-400 hover:text-white transition'>
                         Contact
                     </Link>
 
                 </div>
 
-                {/* download resume button */}
-                <div className=''>
-                 
-                <Link href="ResumeV.pdf" target="_blank" download className='capitalize text-white px-3 py-2 font-semibold rounded-3xl bg-gradient-to-r from-[#194BFD] to-[#AD13FB] cursor-pointer'>
+                {/* resume button */}
+                <div className='hidden md:block'>
+                    <Link
+                        href="/Mr Varad Sutar CV.pdf"
+                        target="_blank"
+                        className='px-5 py-2 rounded-full text-sm font-semibold text-white bg-gradient-to-r from-[#194BFD] to-[#AD13FB] hover:opacity-90 transition'
+                    >
                         Download Resume
-                        </Link>
+                    </Link>
                 </div>
 
-                {/* toogle menu button */}
+                {/* mobile menu button */}
                 <button
                     onClick={() => dispatch(toggleMobileSidebar())}
-                    className='text-2xl text-white md:hidden'>
+                    className='text-3xl text-white md:hidden'
+                >
                     <IoIosMenu />
                 </button>
 

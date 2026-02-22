@@ -87,7 +87,7 @@ const Footer = () => {
                 </div>
 
             </section>
-            <p className='text-zinc-400 text-sm text-center mb-4'>&copy; Copyright 2025 | all rights reserved.</p>
+            <p className='text-zinc-400 text-sm text-center mb-4'>&copy; Copyright 2026 | all rights reserved.</p>
         </>
     )
 }

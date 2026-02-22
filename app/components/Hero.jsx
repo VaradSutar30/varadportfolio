@@ -1,74 +1,65 @@
 import React from 'react'
 import Image from 'next/image'
-import MyImage from '@/public/varad.png'
+
 import Gradient_button from './Gradient_button'
-import { FaArrowRightLong } from "react-icons/fa6"; //arrow
-import { GiStarShuriken } from "react-icons/gi";
-import { BsStars } from "react-icons/bs"; //star icon
-import { GoNorthStar } from "react-icons/go"; //star icon 2
+import { FaArrowRightLong } from "react-icons/fa6";
 
 const Hero = () => {
     return (
         <section id='home' className='mt-32 hidden w-full h-screen md:flex justify-center items-center'>
 
-            {/* background strip */}
-            <div className='w-[78%] h-64 bg-gradient-to-tr from-[#17171a42] to-[#17171A] relative'>
+            <div className='w-[80%] h-[420px] bg-gradient-to-tr from-[#17171a42] to-[#17171A] relative rounded-2xl shadow-xl'>
 
-                {/* hero text */}
-                <div className='ml-16 relative z-10'>
+                {/* TEXT */}
+                <div className='ml-16 pt-16 max-w-xl relative z-10'>
 
-                    {/* title text */}
-                    <h2 className='-mt-20 text-5xl text-white'>I Am a Web Developer<br />
- <br />
-                        <span className='text-blue-600 font-semibold'>Varad Sutar</span>
-                    </h2>
+                    <p className='text-blue-500 font-semibold tracking-widest uppercase text-sm mb-3'>
+                        Full Stack Developer
+                    </p>
 
-                    {/* about paragraph */}
-                    <p className='w-7/12 mt-4 mb-6 text-zinc-600 text-sm'>"I am a Computer Engineer and dedicated Front-End Developer who builds fast, scalable, and highly maintainable web applications. My background in computer engineering provides me with a deep understanding of data structures, algorithms, and system performance, which I directly apply to the user experience layer.</p>
+                    <h1 className='text-5xl font-bold text-white leading-tight'>
+                        Building Scalable <br />
+                        Web Applications <br />
+                        <span className='text-blue-600'>That Deliver Results</span>
+                    </h1>
 
-                    <div className='flex gap-6 items-center'>
-                        {/* discuss project button */}
-                        <Gradient_button title={'discuss for project'} />
+                    <p className='text-xl text-white mt-3 font-semibold'>
+                        — Varad Sutar
+                    </p>
 
-                        <button className='capitalize text-white flex gap-4 items-center cursor-pointer'>
-                            View portfolio
+                    <p className='mt-5 text-zinc-400 text-sm leading-relaxed'>
+                        Computer Engineering student specializing in modern web development.
+                        I build fast, responsive and scalable applications using React,
+                        Tailwind, PHP and MySQL.
+                    </p>
+
+                    <div className='flex gap-6 items-center mt-7'>
+                        <Gradient_button title={'Hire Me'} />
+
+                        <button className='capitalize text-white flex gap-3 items-center cursor-pointer hover:text-blue-500 transition'>
+                            View Projects
                             <FaArrowRightLong />
                         </button>
                     </div>
 
                 </div>
 
-                {/* rectangle element */}
-                <div className='w-full h-64 border border-[#17171A] absolute -right-8 -bottom-8'></div>
+                {/* IMAGE */}
+<div className='absolute right-10 top-1/2 -translate-y-1/2 rounded-2xl'>
 
-                {/* star icon */}
-                <BsStars className='text-4xl text-[#194BFD] absolute -top-32 right-12 animate-pulse' />
-                <GoNorthStar className='spin-slow text-4xl text-[#AD13FB] absolute bottom-16 right-97' />
+<Image
+    src="/varad1.png"
+    alt="Varad Sutar"
+    width={320}
+    height={200}
+    priority
+    className='object-contain drop-shadow-[0_30px_60px_rgba(25,75,253,0.5)] rounded-full'
+/>
 
-                {/* animated circle text */}
-                <div className="spin-slow absolute h-28 w-28 right-10 bottom-20 z-10">
-                    <div className="h-28 w-28 rounded-full border border-[#194BFD] absolute right-0 bottom-0 delay-75 flex justify-center items-center">
-                        <GiStarShuriken className="text-3xl text-white z-10" />
+</div>
 
-                        <svg className="absolute inset-0 w-full h-full" viewBox="0 0 100 100">
-                            <defs>
-                                <path
-                                    id="circlePath"
-                                    d="M 50, 50 m -35, 0 a 35,35 0 1,1 70,0 a 35,35 0 1,1 -70,0"
-                                />
-                            </defs>
-                            <text fill="white" fontSize="11" fontFamily="Arial" textAnchor="middle">
-                                <textPath href="#circlePath" startOffset="50%">
-                                    WEB DEVELOPER • GAME DEVELOPER •
-                                </textPath>
-                            </text>
-                        </svg>
-                    </div>
-                </div>
-
-
-                {/* hero image */}
-                <Image src={MyImage} alt='MyImage' height={360} width={360} className='absolute right-10 bottom-0' />
+                {/* Glow */}
+                <div className='absolute right-24 bottom-10 w-64 h-64 bg-orange-600/20 blur-[120px] rounded-full'></div>
 
             </div>
 
