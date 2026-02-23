@@ -33,9 +33,6 @@ const Projects = () => {
     <section id="project" className="w-full py-16 flex flex-col items-center text-white">
 
       <div className="text-center mb-12">
-        <p className="uppercase text-zinc-500 font-semibold tracking-widest">
-          Portfolio
-        </p>
         <h2 className="text-3xl font-bold mt-2">
           My <span className="text-blue-500">Projects</span>
         </h2>

@@ -26,25 +26,30 @@ const Navbar = () => {
                 {/* nav links */}
                 <div className='hidden md:flex gap-10 items-center font-medium'>
 
-                    <Link href="#home" className='text-white hover:text-blue-500 transition'>
+                    <Link href="#home" className='text-white hover:text-blue-500 transition drop-shadow-[0_30px_60px_rgba(25,75,253,0.5)]'>
                         Home
                     </Link>
 
-                    <Link href="#service" className='text-zinc-400 hover:text-white transition'>
+                    <Link href="#service" className='text-zinc-400 hover:text-blue-500 transition drop-shadow-[0_30px_60px_rgba(25,75,253,0.5)]'>
                         Services
                     </Link>
 
-                    <Link href="#project" className='text-zinc-400 hover:text-white transition'>
+                    <Link href="#project" className='text-zinc-400 hover:text-blue-500 transition drop-shadow-[0_30px_60px_rgba(25,75,253,0.5)]'>
                         Projects
                     </Link>
 
-                    <Link href="#about" className='text-zinc-400 hover:text-white transition'>
+                    <Link href="#skills" className='text-zinc-400 hover:text-blue-500 transition drop-shadow-[0_30px_60px_rgba(25,75,253,0.5)]'>
+                        Skills
+                    </Link>
+
+                    <Link href="#about" className='text-zinc-400 hover:text-blue-500 transition drop-shadow-[0_30px_60px_rgba(25,75,253,0.5)]'>
                         About
                     </Link>
 
-                    <Link href="#contact" className='text-zinc-400 hover:text-white transition'>
+                    <Link href="#contact" className='text-zinc-400 hover:text-blue-500 transition drop-shadow-[0_30px_60px_rgba(25,75,253,0.5)]'>
                         Contact
                     </Link>
+                    
 
                 </div>
 
