@@ -56,7 +56,7 @@ const Navbar = () => {
                 {/* resume button */}
                 <div className='hidden md:block'>
                     <Link
-                        href="/Mr Varad Sutar CV.pdf"
+                        href="/ER VARAD SUTAR CV (1).pdf"
                         target="_blank"
                         className='px-5 py-2 rounded-full text-sm font-semibold text-white bg-gradient-to-r from-[#194BFD] to-[#AD13FB] hover:opacity-90 transition'
                     >
